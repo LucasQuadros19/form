@@ -92,6 +92,9 @@
             
         }
         @media screen and (max-width: 768px) {
+            #submit{
+                background-image: linear-gradient(to right,rgb(197, 0, 154), rgb(90, 20, 220));
+            }
             .box{
              
                 position: absolute;
@@ -152,6 +155,24 @@
              
                 position: absolute;
                 top: 250vw;
+                left: 50vw;
+                
+
+                width: 80%;
+                
+            }
+                
+            
+            
+        }
+        @media screen and (max-width: 375px) {
+            #submit{
+                background-image: linear-gradient(to right,rgb(197, 0, 154), rgb(90, 20, 220));
+            }
+            .box{
+             
+                position: absolute;
+                top: 320vw;
                 left: 50vw;
                 
 
