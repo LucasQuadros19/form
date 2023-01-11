@@ -72,11 +72,15 @@
         #submit:hover{
             background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
         }
+        .res{
+            display: flex;
+            align-items: center;
+        }
         @media screen and (max-width: 1200px) {
             .box{
              
                 position: absolute;
-                top: 150vw;
+                top: 100vw;
                 left: 50vw;
                 
 
@@ -102,6 +106,24 @@
             
             
         }
+        @media screen and (max-width: 592px) {
+            #submit{
+                background-image: linear-gradient(to right,rgb(197, 0, 154), rgb(90, 20, 220));
+            }
+            .box{
+             
+                position: absolute;
+                top: 170vw;
+                left: 50vw;
+                
+
+                width: 80%;
+                
+            }
+                
+            
+            
+        }
 
         @media screen and (max-width: 480px) {
             #submit{
@@ -115,6 +137,43 @@
                 
 
                 width: 75%;
+                
+            }
+                
+            
+            
+        }
+        
+        @media screen and (max-width: 428px) {
+            #submit{
+                background-image: linear-gradient(to right,rgb(197, 0, 154), rgb(90, 20, 220));
+            }
+            .box{
+             
+                position: absolute;
+                top: 250vw;
+                left: 50vw;
+                
+
+                width: 80%;
+                
+            }
+                
+            
+            
+        }
+        @media screen and (max-width: 375px) {
+            #submit{
+                background-image: linear-gradient(to right,rgb(197, 0, 154), rgb(90, 20, 220));
+            }
+            .box{
+             
+                position: absolute;
+                top: 300vw;
+                left: 50vw;
+                
+
+                width: 80%;
                 
             }
                 
@@ -139,11 +198,40 @@
             
             
         }
+        @media screen and (max-width: 273px) {
+            #submit{
+                background-image: linear-gradient(to right,rgb(197, 0, 154), rgb(90, 20, 220));
+            }
+            .box{
+             
+                position: absolute;
+                top: 400vw;
+                left: 50vw;
+                
 
+                width: 80%;
+                
+            }
+                
+            
+            
+        }
+        @media screen and (max-width:  242px) {
+            #submit{
+                background-image: linear-gradient(to right,rgb(197, 0, 154), rgb(90, 20, 220));
+            }
+            .box{
+             
+                position: absolute;
+                top: 470vw;
+                left: 50vw;
+                
 
-
-        1200 pixels – Desktops com monitores widescreen.
-960 pixels – Tablets em formato paisagem e monitores antigos.
-768 pixels – Tablets em formato retrato.
-480 pixels – Smartphones em formato paisagem.
-320 pixels – Smartphones em formato retrato.
+                width: 80%;
+                
+            }
+                
+            
+            
+        }
+       
