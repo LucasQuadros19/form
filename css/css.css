@@ -76,7 +76,7 @@ legend {
 @media screen and (max-width: 1200px) {
   .box {
     position: absolute;
-    top: 1050px;
+    top: 1100px;
     left: 50vw;
 
     width: 50%;
