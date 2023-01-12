@@ -19,7 +19,7 @@
         .box{
             color: white;
             position: absolute;
-            top: 70vw;
+            top: 1000px;
             left: 50vw;
             transform: translate(-50%,-50%);
             background-color: rgba(0, 0, 0, 0.6);
@@ -76,11 +76,12 @@
             display: flex;
             align-items: center;
         }
+
         @media screen and (max-width: 1200px) {
             .box{
              
                 position: absolute;
-                top: 100vw;
+                top:1000px;
                 left: 50vw;
                 
 
@@ -98,11 +99,11 @@
             .box{
              
                 position: absolute;
-                top: 150vw;
+                top:1000px;
                 left: 50vw;
                 
 
-                width: 50%;
+                width: 80%;
                 
             }
                 
@@ -116,7 +117,7 @@
             .box{
              
                 position: absolute;
-                top: 170vw;
+                top:1000px;
                 left: 50vw;
                 
 
@@ -127,34 +128,14 @@
             
             
         }
-
-        @media screen and (max-width: 480px) {
+        @media screen and (max-width: 470px) {
             #submit{
                 background-image: linear-gradient(to right,rgb(197, 0, 154), rgb(90, 20, 220));
             }
             .box{
              
                 position: absolute;
-                top: 230vw;
-                left: 50vw;
-                
-
-                width: 75%;
-                
-            }
-                
-            
-            
-        }
-        
-        @media screen and (max-width: 428px) {
-            #submit{
-                background-image: linear-gradient(to right,rgb(197, 0, 154), rgb(90, 20, 220));
-            }
-            .box{
-             
-                position: absolute;
-                top: 250vw;
+                top:1000px;
                 left: 50vw;
                 
 
@@ -165,14 +146,14 @@
             
             
         }
-        @media screen and (max-width: 375px) {
+        @media screen and (max-width: 420px) {
             #submit{
                 background-image: linear-gradient(to right,rgb(197, 0, 154), rgb(90, 20, 220));
             }
             .box{
              
                 position: absolute;
-                top: 320vw;
+                top:1050px;
                 left: 50vw;
                 
 
@@ -183,14 +164,14 @@
             
             
         }
-        @media screen and (max-width: 375px) {
+        @media screen and (max-width: 300px) {
             #submit{
                 background-image: linear-gradient(to right,rgb(197, 0, 154), rgb(90, 20, 220));
             }
             .box{
              
                 position: absolute;
-                top: 300vw;
+                top:1050px;
                 left: 50vw;
                 
 
@@ -201,14 +182,14 @@
             
             
         }
-        @media screen and (max-width: 320px) {
+        @media screen and (max-width: 260px) {
             #submit{
                 background-image: linear-gradient(to right,rgb(197, 0, 154), rgb(90, 20, 220));
             }
             .box{
              
                 position: absolute;
-                top: 330vw;
+                top:1100px;
                 left: 50vw;
                 
 
@@ -219,40 +200,3 @@
             
             
         }
-        @media screen and (max-width: 273px) {
-            #submit{
-                background-image: linear-gradient(to right,rgb(197, 0, 154), rgb(90, 20, 220));
-            }
-            .box{
-             
-                position: absolute;
-                top: 400vw;
-                left: 50vw;
-                
-
-                width: 80%;
-                
-            }
-                
-            
-            
-        }
-        @media screen and (max-width:  242px) {
-            #submit{
-                background-image: linear-gradient(to right,rgb(197, 0, 154), rgb(90, 20, 220));
-            }
-            .box{
-             
-                position: absolute;
-                top: 470vw;
-                left: 50vw;
-                
-
-                width: 80%;
-                
-            }
-                
-            
-            
-        }
-       
