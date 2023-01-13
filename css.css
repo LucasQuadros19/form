@@ -54,9 +54,7 @@ legend {
   font-size: 15px;
 }
 #submit {
-  background-image: linear-gradient(
-    to right, #2e5b29, #0d3b1f
-  );
+  background-image: linear-gradient(to right, #2e5b29, #0d3b1f);
   width: 100%;
   border: none;
   padding: 15px;
@@ -66,7 +64,7 @@ legend {
   border-radius: 10px;
 }
 #submit:hover {
-  background-image: linear-gradient(to right,#0d3b1f,#2e5b29);
+  background-image: linear-gradient(to right, #0d3b1f, #2e5b29);
 }
 .res {
   display: flex;
