@@ -25,13 +25,7 @@ body {
 fieldset {
   border: 3px solid #e7ad6a;
 }
-legend {
-  border: 1px solid #e7ad6a;
-  padding: 10px;
-  text-align: center;
-  background-color: #e7ad6a;
-  border-radius: 8px;
-}
+
 .inputBox {
   position: relative;
 }
@@ -73,72 +67,56 @@ legend {
 
 @media screen and (max-width: 1200px) {
   .box {
-    position: absolute;
     top: 1100px;
-    left: 50vw;
 
     width: 50%;
   }
 }
 @media screen and (max-width: 768px) {
   .box {
-    position: absolute;
     top: 1050px;
-    left: 50vw;
 
     width: 80%;
   }
 }
 @media screen and (max-width: 592px) {
   .box {
-    position: absolute;
     top: 1050px;
-    left: 50vw;
 
     width: 80%;
   }
 }
 @media screen and (max-width: 470px) {
   .box {
-    position: absolute;
     top: 1050px;
-    left: 50vw;
 
     width: 80%;
   }
 }
 @media screen and (max-width: 420px) {
   .box {
-    position: absolute;
     top: 1100px;
-    left: 50vw;
 
     width: 80%;
   }
 }
 @media screen and (max-width: 300px) {
   .box {
-    position: absolute;
     top: 1100px;
-    left: 50vw;
 
     width: 80%;
   }
 }
 @media screen and (max-width: 260px) {
   .box {
-    position: absolute;
     top: 1150px;
-    left: 50vw;
 
     width: 80%;
   }
 }
 @media screen and (max-width: 240px) {
   .box {
-    position: absolute;
     top: 1200px;
-    left: 50vw;
 
     width: 80%;
   }
